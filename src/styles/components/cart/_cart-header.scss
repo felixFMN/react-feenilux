@@ -1,0 +1,305 @@
+html {
+	-webkit-font-smoothing: antialiased!important;
+	-moz-osx-font-smoothing: grayscale!important;
+	-ms-font-smoothing: antialiased!important;
+}
+.logo-marca{
+	height: 48px;
+	background-color: #6f6f6f;
+}
+.middleBar{
+	border-bottom: 0px solid rgba(0, 0, 0, 0.08);
+	min-height: 40px;
+	padding: 0 0 0 0;
+}
+body{
+	margin: 0 ;
+}
+
+.secure{
+	font-size: 12px;
+	color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+	letter-spacing: 1px;
+	text-align: right;
+	line-height: 48px;
+	box-sizing: inherit;
+}  
+
+
+.ui-bg.s-cols-4.grid-container.s-grid-4.s-pxy-2.s-mb-4{
+	display: flex;
+}
+@media (min-width: 550px){
+	.ui-bg.s-cols-4.grid-container.s-grid-4.s-pxy-2.s-mb-4{
+		display: grid;
+	}
+}
+.flex-container.s-mb-2-cart img{
+	width: 20%;
+}
+.flex-item.s-100.md-50{
+	img{
+		width: 20px;
+	}
+	a{
+		font-size: 20px;
+	}
+	
+}
+.flex-container.ui-bg.s-mb-2{
+	.flex-item.s-100.md-100.s-center.s-pxy-1 img{
+		width: 70px;
+	}
+}
+.flex-container.s-80.md-50.s-main-center.l-section{
+	.flex-item.s-mb-4{
+		.s-center{
+			font-size:25px ;
+			padding-top: 30px;
+		}
+		.flex-item.s-main-center{
+			img{
+				padding-top: 15px;
+			}
+		}
+	}
+
+}
+
+/*@media (min-width: 767px){
+	.vertical-align {
+		display: table-caption;
+	}
+}*/
+@media screen and (min-width: 0px){
+	.vertical-align {
+		padding: 0 12px;
+		
+	}
+}
+
+@media screen and (min-width: 1200px){
+	z-grid {
+		max-width: 1176px ;
+	}
+}
+/*@media screen and (min-width: 960px){
+	z-grid {
+		max-width: 936px ;
+	}
+}*/
+/*
+
+@media screen and (min-width: 600px) {
+	.secure{
+		font-size: 14px !important;
+	}
+}
+@media screen and (min-width:1000px) {
+	.secure{
+		font-size: 16px !important;
+	}
+}
+.row{
+	margin-left: 0px;
+}
+@media screen and (min-width: 740px){
+	z-grid>z-grid-item {
+		padding: 0 10px;
+	}
+}
+@media screen and (min-width: 740px){
+	z-grid {
+		margin: 0 75px;
+	}
+}
+z-grid{
+	display: -webkit-box; 
+    display: -webkit-flex;
+	display: flex;
+    -webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-flow: row wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+	padding: 0 12px;
+	font-family: sans-serif;
+}
+z-grid-item{
+	padding: 0 10px;
+	width: 0;
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  color:#555555; 
+}*/
+div.md-step{
+	font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  color:#555555; 
+}
+
+.md-stepper-horizontal {
+	display:table;
+	width:100%;
+	margin:0 auto;
+	/*background-color:#FFFFFF;*/
+	max-width: 83.33333%;
+}
+.md-stepper-horizontal .md-step {
+	display:table-cell;
+	position:relative;
+	/*padding: 24px;*/
+}
+@media (min-width: 1024px) {
+	.md-stepper-horizontal .md-step {
+		display:table-cell;
+		position:relative;
+		padding: 10px;
+	}
+}
+@media only screen 
+and (max-width: 414px) {
+	.md-stepper-horizontal .md-step {
+		display:table-cell;
+		position:relative;
+		padding: 10px;
+	}
+}
+@media screen and (min-width: 0px) {
+	z-grid-item[span-xs="6"]{
+		display: inline-block;
+		flex-basis: 50%;
+		width: 50%;
+		max-width: 50%;
+	}
+}
+@media only screen 
+and (max-width: 1280px)
+ {
+	.md-stepper-horizontal .md-step {
+		display:table-cell;
+		position:relative;
+		padding: 10px;
+	}
+}
+
+.md-stepper-horizontal .md-step:hover,
+.md-stepper-horizontal .md-step:active {
+	background-color:rgba(0,0,0,0.04);
+}
+.md-stepper-horizontal .md-step:active {
+	border-radius: 15% / 75%;
+}
+.md-stepper-horizontal .md-step:first-child:active {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.md-stepper-horizontal .md-step:last-child:active {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.md-stepper-horizontal .md-step:hover .md-step-circle {
+	background-color:#757575;
+}
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+.md-stepper-horizontal .md-step:last-child .md-step-bar-right {
+	display:none;
+}
+.md-stepper-horizontal .md-step .md-step-circle {
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	background-color:#999999;
+	border-radius: 50%;
+	text-align: center;
+	line-height:30px;
+	font-size: 16px;
+	font-weight: 600;
+	color:#FFFFFF;
+}
+.md-stepper-horizontal.green .md-step.active .md-step-circle {
+	background-color:#00AE4D;
+}
+.md-stepper-horizontal.orange .md-step.active .md-step-circle {
+	background-color:#F96302;
+}
+.md-stepper-horizontal .md-step.active .md-step-circle {
+	background-color: rgb(33,150,243);
+}
+.md-stepper-horizontal .md-step.done .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f00c";
+}
+.md-stepper-horizontal .md-step.done .md-step-circle *,
+.md-stepper-horizontal .md-step.editable .md-step-circle * {
+	display:none;
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle:before {
+	//font-family:'FontAwesome';
+	//font-weight:100;
+	content: "\f040";
+}
+.md-stepper-horizontal .md-step .md-step-title {
+	margin-top:16px;
+	font-size:16px;
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+	text-align: center;
+	color:rgba(0,0,0,.26);
+}
+.md-stepper-horizontal .md-step.active .md-step-title {
+	font-weight: 600;
+	color:rgba(0,0,0,.87);
+}
+.md-stepper-horizontal .md-step.active.done .md-step-title,
+.md-stepper-horizontal .md-step.active.editable .md-step-title {
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-optional {
+	font-size:12px;
+}
+.md-stepper-horizontal .md-step.active .md-step-optional {
+	color:rgba(0,0,0,.54);
+}
+.md-stepper-horizontal .md-step .md-step-bar-left,
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	position:absolute;
+	top:36px;
+	height:1px;
+	border-top:1px solid #DDDDDD;
+}
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	right:0;
+	left:50%;
+	margin-left:20px;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left {
+	left:0;
+	right:50%;
+	margin-right:20px;
+}
+div .md-step-circle span img{
+	width: 50%;
+}
